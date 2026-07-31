@@ -91,7 +91,7 @@ sudo apt install python3 python3-venv python3-pip git
 Clone the project:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/docling-telegram-bot.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/docling-telegram-bot.git
 ```
 
 Enter the project directory:
@@ -100,7 +100,7 @@ Enter the project directory:
 cd docling-telegram-bot
 ```
 
-Replace `YOUR_USERNAME` with your GitHub username.
+Replace `YOUR_GITHUB_USERNAME` with your GitHub username.
 
 ---
 
@@ -214,26 +214,26 @@ Run:
 Example:
 
 ```bash
-./run.sh /home/user/Documents/example.pdf
+./run.sh /home/yourusername/Documents/example.pdf
 ```
 
 The script should create:
 
 ```text
-/home/user/Documents/example.txt
+/home/yourusername/Documents/example.txt
 ```
 
 To create Markdown output:
 
 ```bash
-./run.sh /home/user/Documents/example.pdf --format md
+./run.sh /home/yourusername/Documents/example.pdf --format md
 ```
 
 To specify a custom output path:
 
 ```bash
-./run.sh /home/user/Documents/example.pdf \
-    --output /home/user/Documents/example_extracted.txt
+./run.sh /home/yourusername/Documents/example.pdf \
+    --output /home/yourusername/Documents/example_extracted.txt
 ```
 
 ---
@@ -412,7 +412,7 @@ Relative output directory:
 Or an absolute path:
 
 ```json
-"output_directory": "/home/user/Documents/docling-output"
+"output_directory": "/home/yourusername/Documents/docling-output"
 ```
 
 ### `log_level`
@@ -635,7 +635,7 @@ Assume the project is located here:
 /home/yourusername/scripts/docling-telegram-bot
 ```
 
-Replace `yourusername` with your actual Linux username.
+Replace `yourusername` with the Linux account that will run the service.
 
 ---
 
@@ -685,10 +685,10 @@ with your actual Linux username.
 Example:
 
 ```ini
-User=ashkan
-Group=ashkan
-WorkingDirectory=/home/ashkan/scripts/docling-telegram-bot
-ExecStart=/home/ashkan/scripts/docling-telegram-bot/run.sh --bot
+User=yourusername
+Group=yourusername
+WorkingDirectory=/home/yourusername/scripts/docling-telegram-bot
+ExecStart=/home/yourusername/scripts/docling-telegram-bot/run.sh --bot
 ```
 
 Save the file in Nano:
@@ -1245,7 +1245,7 @@ journalctl -u docling-telegram-bot.service -f
 # 20. Example Complete Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/docling-telegram-bot.git
+git clone https://github.com/YOUR_GITHUB_USERNAME/docling-telegram-bot.git
 cd docling-telegram-bot
 
 python3 -m venv .venv
@@ -1304,7 +1304,7 @@ Example:
 ```text
 MIT License
 
-Copyright (c) 2026 Your Name
+Copyright (c) 2026 NOT ASHKAN
 ```
 
 ---
