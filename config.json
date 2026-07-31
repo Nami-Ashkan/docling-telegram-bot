@@ -1,0 +1,8 @@
+{
+    "bot_id": 1234567890,
+    "bot_token": "1234567890:AAxxxxxxxxxxxxxxxxxxxxxxxx",
+    "allowed_user_ids": [],
+    "max_pdf_mb": 20,
+    "output_format": "txt",
+    "output_directory": "output"
+}
